@@ -139,3 +139,64 @@ p {
 #thor-quote {
   align-self: flex-end;
 }
+
+/* section 4 */
+.section4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.modal {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width:400px;
+  height: 125px;
+  background-color: #3882f6;
+  margin: 100px;
+  padding-left: 50px;
+  padding-right: 50px;
+  gap: 20px;
+  border-radius: 10px;
+}
+
+.txtBlock {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+#modalbutton {
+  flex-shrink: 0;
+  height: 30px;
+  width: 90px;
+  border: none;
+  border-radius: 10px;
+}
+
+#modaltitle, #modaltext {
+  color: #f9faf8;
+}
+
+#modaltitle {
+  font-size: 16px;
+}
+
+#modaltext {
+  font-weight: lighter;
+  font-size: 9px;
+}
+
+/* footer */
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1F2937;
+  padding: 24px;
+}
+#footer-text {
+  font-size: 12px;
+  font-weight: lighter;
+  color: lightgrey;
+}
