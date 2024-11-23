@@ -4,22 +4,32 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Landing Page</title>
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <div class="header">
-      Header Logo
-      <a href="#">header link one</a>
-      <a href="#">header link two</a>
-      <a href="#">header link three</a>
-    </div>
     <div class="content">
       <div class="section1">
-        <p>This website is awesome</p>
-        <p>
-          This website has some subtext that goes here under the main title.
-          It's a smaller font and the color is lower contrast.
-        </p>
-        <button>Sign up</button>
+        <div class="header">
+          Header Logo
+          <ul>
+            <li><a href="#" class="header-link-text">header link one</a></li>
+            <li><a href="#" class="header-link-text">header link two</a></li>
+            <li><a href="#" class="header-link-text">header link three</a></li>
+          </ul>
+        </div>
+        <div class="headerblock">
+          <div class="leftheaderblock">
+            <p id="hero-main-text">This website is awesome</p>
+            <p id="hero-secondary-text">
+              This website has some subtext that goes here under the main title.
+              It's a smaller font and the color is lower contrast.
+            </p>
+            <button class="headerbutton">Sign up</button>
+          </div>
+          <div class="rightheaderblock">
+            <img src="img.webp" alt="blank image" width="300" height="200" />
+          </div>
+        </div>
       </div>
       <div class="section2">
         <p>Some random information.</p>
